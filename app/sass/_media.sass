@@ -1,0 +1,895 @@
+@media (max-width: 1279px)
+    .container
+        max-width: 960px
+
+    body.hidden
+        overflow: hidden
+
+    .header
+        &-menu-inner
+            display: none
+            background-color: #fff
+            z-index: 3
+            position: absolute
+            right: 0
+            left: 0
+            top: 0
+            bottom: 0
+            height: 100vh
+            padding-top: 82px
+            padding-left: 48px
+        &-menu
+            grid-gap: 20px
+            flex-direction: column
+            align-items: flex-start
+            font-weight: 400
+            grid-gap: 10px
+            line-height: 150%
+        &-col
+            display: flex
+            align-items: center
+            grid-gap: 20px
+        &-menu__title
+            display: block
+            position: absolute
+            top: 29px
+    .btn-menu
+        display: block
+        padding: 0
+        display: flex
+        align-items: center
+        background-color: transparent
+        justify-content: center
+        height: 20px
+        width: 38px
+        background-image: url("data:image/svg+xml,%3Csvg width='38' height='20' viewBox='0 0 38 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='38' height='4' rx='2' fill='%23333333'/%3E%3Cpath d='M0 10C0 8.89543 0.895431 8 2 8H36C37.1046 8 38 8.89543 38 10V10C38 11.1046 37.1046 12 36 12H2C0.89543 12 0 11.1046 0 10V10Z' fill='%23333333'/%3E%3Crect y='16' width='38' height='4' rx='2' fill='%23333333'/%3E%3C/svg%3E%0A")
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center center
+        z-index: 3
+        &.open
+            background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='2.82837' width='38' height='4' rx='2' transform='rotate(45 2.82837 0)' fill='%23333333'/%3E%3Crect x='0.150757' y='27.021' width='38' height='4' rx='2' transform='rotate(-45 0.150757 27.021)' fill='%23333333'/%3E%3C/svg%3E%0A")
+
+    .title-md
+        font-size: 26px
+        line-height: 30px
+
+    .title
+        font-size: 28px
+        line-height: 33px
+
+    .title-lg
+        font-size: 44px
+        line-height: 48px
+
+    .top
+        padding-top: 40px
+        &-img
+            margin-right: -80px
+        &-img img
+            width: 380px
+        &-text
+            font-size: 14px
+            width: 353px
+            margin: -80px auto 0
+
+    .promo-benefits__items
+        grid-gap: 110px
+
+    .promotion-col
+        width: 325px
+
+    .price-new
+        font-size: 46px
+        line-height: 50px
+    .promotion-sub__text
+        font-size: 18px
+        line-height: 20px
+
+    .promotion__img
+        margin-top: -130px
+        margin-left: -60px
+        max-width: 569px
+
+    .promotion-col__text
+        width: 330px
+    .form
+        padding: 21px 28px
+    .form-control
+        padding: 16px 10px
+        font-size: 16px
+        &::placeholder
+            font-size: 18px
+    .form-row
+        margin-bottom: 15px
+
+    .btn-lg
+        padding: 12px 22px
+        text-align: center
+        font-size: 20px
+        line-height: 22px
+
+    .form-btn
+        margin-bottom: 16px
+
+    .form__text
+        font-size: 16px
+        line-height: 20px
+
+    .compound__inner
+        padding-bottom: 52px
+
+    .compound__title
+
+    .about__subtitle
+        font-size: 16px
+
+    .compound
+        padding: 78px 0 17px
+    .compound__text
+        margin-top: 30px
+
+    .compound-top__img
+        margin-top: -50px
+        width: 40%
+
+    .compound-bottom__im
+        width: 90%
+
+    .compound-bottom__items
+        padding-left: 49px
+        padding-right: 49px
+
+    .about__inner
+        grid-gap: 45px
+    .about__img
+        width: 400px
+
+    .problems
+        padding-top: 40px
+        padding-bottom: 35px
+
+    .problems__title
+        margin-bottom: 24px
+
+    .problems__content
+        margin-top: 40px
+        max-width: 691px
+    .problems__items
+        padding: 20px 20px 16px 22px
+        grid-gap: 24px
+
+    .problems__items::before
+        width: 8px
+    .problems__number
+        font-size: 33px
+
+    .problems-item
+        grid-gap: 16px
+
+    .problems__img
+        width: 190px
+        &::before
+            height: 8px
+
+    .information__img
+        width: 400px
+
+    .information__inner
+        grid-gap: 40px
+    .information__text
+        padding: 15px
+
+    .benefits-item__img
+        margin-bottom: 20px
+        img
+            margin: 0 auto
+
+    .benefits-item__text
+        margin: 0 auto
+        width: 346px
+
+    .benefits__items
+        grid-template-columns: repeat(2, 1fr)
+
+    .text-md
+        font-size: 18px
+
+    .indications__items
+        grid-row-gap: 20px
+        grid-column-gap: 50px
+        padding: 0
+
+    .indications-item__img
+        width: 180px
+    .indications-item__title
+        font-size: 14px
+
+    .promotion-bottom .form
+        width: 345px
+
+    .promotion-bottom .promotion__content
+        width: 555px
+
+    .footer__inner
+        font-size: 12px
+        line-height: 20px
+
+    .footer__logo
+        width: 200px
+
+    .timer__items
+        justify-content: space-between
+        background-size: 100%
+        margin-bottom: 10px
+    .timer__item
+        width: 94px
+        font-size: 51px
+        line-height: 60px
+        padding-bottom: 24px
+    .timer__item::before
+        font-size: 16px
+        line-height: 18px
+    .timer__item:not(:last-child)::after
+        right: -18px
+
+@media (max-width: 999px)
+    .container
+        max-width: 734px
+
+    .title-md
+        font-size: 20px
+        line-height: 25px
+
+    .title
+        font-size: 24px
+        line-height: 29px
+
+    .title-lg
+        font-size: 33px
+        line-height: 38px
+
+    .title
+        font-size: 20px
+        line-height: 25px
+
+    .btn-lg
+        padding: 10px 20px
+        font-size: 16px
+        line-height: 18px
+
+    .top
+        background-image: none !important
+        background: linear-gradient(180deg, #13B3B6 0%, rgba(217, 217, 217, 0.00) 100%) !important
+        padding-bottom: 50px
+
+    .top__titles
+        max-width: 420px
+
+    .top-img
+        margin: 0
+    .promo-benefits-item__text
+        font-size: 15px
+    .promo-benefits__items
+        grid-gap: 40px
+
+    .promotion__img
+        max-width: 389px
+        margin-top: -60px
+        margin-left: -30px
+
+    .promotion:not(.promotion-bottom) .promotion__inner
+        padding: 21px 20px 9px 30px
+
+    .promotion-col__text
+        width: 100%
+    .promotion__prices
+        text-align: left
+
+    .price-new
+        font-size: 40px
+        line-height: 45px
+
+    .form
+        margin-top: 20px
+        padding: 20px
+
+    .form-control
+        padding: 10px 16px
+        &::placeholder
+            font-size: 16px
+            line-height: 18px
+
+    .form__text
+        font-size: 14px
+        line-height: 17px
+
+    .compound-item
+        font-size: 16px
+        line-height: 23px
+
+    .compound__title
+        margin-bottom: 16px
+
+    .compound-top__box
+        padding: 17px
+
+    .compound-top__items
+        grid-template-columns: repeat(3,1fr)
+
+    .compound__inner
+        grid-gap: 20px
+
+    .compound-top__img
+        margin-top: 0
+        width: 52%
+
+    .compound-bottom__items
+        padding: 17px
+        width: 390px
+
+    .compound-item__text
+        line-height: 17px
+
+    .compound-bottom__items
+        grid-column-gap: 38px
+
+    .about__inner
+        display: flex
+        flex-direction: column
+
+    .about__img
+        width: 300px
+
+    .about__content
+        max-width: 100%
+
+    .about__subtitle
+        max-width: 450px
+        width: 100%
+
+    .problems
+        margin-bottom: 17px
+
+    .problems__img
+        display: none
+
+    .problems__content
+        margin-top: 10px
+        max-width: 100%
+
+    .information
+        margin-bottom: 54px
+
+    .information__inner
+        flex-direction: column-reverse
+
+    .information__content
+        max-width: 100%
+
+    .benefits-item
+        padding: 9px 9px 29px
+
+    .benefits-item__text
+        max-width: 290px
+        width: 100%
+
+    .reviews
+        margin: 50px 0 0px
+
+    .reviews-item__inner
+        flex-direction: column
+        align-items: flex-start
+        padding: 20px
+
+    .reviews-item__head
+        display: flex
+        grid-gap: 44px
+        margin-bottom: 15px
+        align-items: flex-start
+
+    .reviews-item__title.hidden-xs
+        display: none
+
+    .reviews-item__title.visible-xs
+        display: block
+        margin-top: 20px
+
+    .reviews-item__img
+        width: 150px
+        height: 150px
+
+    .reviews-item__content
+        max-width: 100%
+
+    .delivery__title
+        margin-bottom: 24px
+
+    .delivery__items
+        grid-template-columns: 1fr
+        grid-gap: 20px
+
+    .promotion-col
+        width: 295px
+
+    .promotion-bottom
+        .form
+            width: 100%
+
+        .promotion__img
+            width: 100%
+            margin-top: -60px
+            margin-left: -10px
+        .promotion__prices
+            position: inherit
+            top: 0
+            right: 0
+
+        .promotion__content
+            width: 385px
+
+    .price-old
+        color: #fff
+        text-decoration: line-through
+        font-size: 28px
+        line-height: 30px
+    .promotion-sub__text
+        font-size: 16px
+        line-height: 20px
+
+    // .timer__items
+
+    .timer__item
+        width: 87px
+        font-size: 40px
+        line-height: 53px
+        span
+            width: 42px
+
+    .timer__item::before
+        font-size: 16px
+        line-height: 18px
+    .timer__item:not(:last-child)::after
+        right: -13px
+
+@media (max-width: 767px)
+    body
+        font-size: 15px
+        line-height: 19px
+
+    .container
+        padding: 0 16px
+
+    .visible-xs
+        display: block
+    .hidden-xs
+        display: none
+
+    .title-md
+        font-size: 18px
+        line-height: 20px
+
+    .title-lg
+        font-size: 28px
+        line-height: 35px
+
+    .header
+        padding: 15px 0
+        &__logo
+            width: 110px
+
+    .top__inner
+        flex-direction: column
+        align-items: center
+        justify-content: center
+    .top__logo img
+        margin: 0 auto 29px
+        width: 214px
+
+    .top__titles
+        max-width: 342px
+        text-align: center
+        margin: 0 auto 20px
+
+    .top__subtitle
+        font-weight: 400
+        margin-bottom: 10px
+    .top-img-mob
+        max-width: 393px
+        width: 100%
+        margin-bottom: 20px
+    .top-btn
+        margin: 0 auto
+    .btn-sm
+        padding: 11px 70px
+        display: inline-block
+
+    .top-list
+        margin-bottom: 13px
+        color: #333
+        text-shadow: none
+    .top-text
+        background-color: transparent
+        margin: 35px 0 0
+        width: 328px
+
+    .top__subtitle span
+        display: block
+
+    .top__content
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+    .promotion:not(.promotion-bottom)
+        margin: 10px 0 30px
+        .promotion__inner
+            background: transparent
+            padding: 0
+        .promotion__prices
+            text-align: center
+
+    .promotion__inner
+        background: transparent
+        padding: 0
+    .promotion__content
+        border-radius: 10px
+        background: linear-gradient(180deg, #009F9F 0%, rgba(139, 222, 224, 0.38) 100%)
+        padding: 8px 20px 9px
+        text-align: center
+        width: 100%
+        margin-bottom: 18px
+
+    .promotion__inner
+        align-items: center
+        justify-content: center
+        flex-direction: column
+
+    .promotion-sub__text
+        display: none
+
+    .promotion__subtitle
+        font-size: 20px
+        margin-bottom: 10px
+
+    .promotion__prices
+        text-align: center
+    .price-old
+        font-size: 15px
+        line-height: 19px
+        font-weight: 700
+        letter-spacing: 0.75px
+        text-decoration-line: strikethrough
+        text-transform: uppercase
+
+    .price-new
+        font-size: 30px
+        font-weight: 700
+        letter-spacing: 0.6px
+        text-transform: uppercase
+        line-height: 37px
+        text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff
+
+    .promotion__img
+        margin: 0 auto
+        max-width: 271px
+
+    .promotion-col__text
+        color: #000
+
+    .timer__item
+        span
+            background: linear-gradient(180deg, #003D3E 0%, #2ED391 100%)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+
+        &:not(:last-child)::after
+            background: linear-gradient(180deg, #003D3E 0%, #2ED391 100%)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+
+    .form
+        border: none
+        padding: 0
+    .form-control
+        padding: 12px 16px
+        &::placeholder
+            font-size: 15px
+    .form__text
+        display: none
+    .btn-lg
+        font-size: 22px
+        line-height: 25px
+
+    .compound
+        background-image: none !important
+
+    .compound-top
+        margin-bottom: 20px
+    .compound-top,
+    .compound-bottom__inner
+        background-color: $primary
+        padding: 20px
+        border-radius: 10px
+    .compound__title
+        font-size: 20px
+        font-weight: 800
+        line-height: 140%
+        letter-spacing: 0.2px
+        text-align: center
+        width: 290px
+        margin: 0 auto
+    .compound-box
+        padding: 30px 22px 22px
+
+    .compound-item
+        font-size: 15px
+        line-height: 22px
+
+    .compound__inner
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+    .compound-top__inner
+        padding-bottom: 0
+
+    .compound-top__img
+        margin: 0 auto
+        width: 187px
+
+    .compound-top__box,
+    .compound-bottom__items
+        padding: 0
+    .compound-bottom__items
+        width: 100%
+    .compound-top__items
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        grid-gap: 20px
+
+    .compound-item
+        width: 28%
+    .compound-bottom__items
+        grid-gap: 20px
+        .compound-item
+            width: 100%
+
+    .compound-item__img
+        width: 84px
+        height: 84px
+        margin-bottom: 10px
+
+    .compound-item__text
+        font-size: 14px
+        font-weight: 600
+        line-height: 14px
+
+    .compound__text
+        padding: 0
+        font-size: 10px
+        font-weight: 600
+        line-height: 18.527px
+        &::before
+            display: none
+
+    .compound-top__content
+        order: 3
+    .about__subtitle
+        font-size: 15px
+        line-height: 19px
+
+    .about
+        padding-top: 29px
+    .about__text
+        font-weight: 400
+    .about__inner
+        grid-gap: 5px
+    .about__img
+        width: 272px
+
+    .problems
+        background-color: transparent
+        margin-bottom: 0px
+    .problems__items
+        padding: 0
+        grid-template-columns: 1fr 1fr
+        border: none
+        grid-gap: 18px
+        &::before
+            background-color: transparent
+            background-image: url("data:image/svg+xml,%3Csvg width='20' height='334' viewBox='0 0 20 334' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='8' y='11' width='4' height='311' fill='%2300C199'/%3E%3Crect x='8' y='11' width='4' height='125' fill='%2300C199'/%3E%3Ccircle cx='10' cy='10' r='10' fill='%2300C199'/%3E%3Ccircle cx='10' cy='72' r='10' fill='%2300C199'/%3E%3Ccircle cx='10' cy='138' r='10' fill='%2300C199'/%3E%3Ccircle cx='10' cy='324' r='10' fill='%2300C199'/%3E%3Ccircle cx='10' cy='262' r='10' fill='%2300C199'/%3E%3Ccircle cx='10' cy='200' r='10' fill='%2300C199'/%3E%3C/svg%3E%0A")
+            width: 20px
+            height: 100%
+            left: 52px
+            background-repeat: no-repeat
+            background-size: contain
+
+    .problems-item
+        grid-gap: 56px
+    .problems__number
+        font-size: 17px
+        line-height: 140%
+        font-weight: 500
+
+    .problems__text
+        color: #0F0101
+        font-size: 10px
+        font-weight: 500
+        line-height: 140%
+        margin-top: 10px
+        letter-spacing: 0.5px
+
+    .information__inner
+        grid-gap: 23px
+
+    .information__text
+        padding: 0
+        border: none
+    .information__content
+        padding: 0
+        background: transparent
+
+    .information__img
+        width: 100%
+
+    .benefits
+        margin-bottom: 60px
+
+    .benefits__title
+        letter-spacing: 1px
+        max-width: 309px
+        width: 100%
+        margin: 0 auto 20px
+
+    .benefits__items
+        grid-template-columns: 1fr
+        grid-gap: 30px
+    .benefits-item
+        margin: 0 auto
+        max-width: 255px
+        width: 100%
+        padding-bottom: 20px
+    .benefits-item__title
+        font-size: 20px
+        font-weight: 500
+        line-height: 140%
+        letter-spacing: 1px
+
+    .benefits-item__text
+        max-width: 230px
+
+    .indications
+        padding: 0
+        background: transparent
+        &__inner
+            color: #333
+            padding-bottom: 0
+
+    .indications__title
+        margin-bottom: 15px
+        color: #333
+    .indications__text
+        font-size: 14px
+        line-height: 18px
+        max-width: 280px
+        width: 100%
+        margin: 0 auto 30px
+    .indications__items
+        grid-template-columns: 1fr
+        grid-gap: 30px
+    .indications-item__img
+        margin-bottom: 0
+
+    .indications-item__title
+        font-size: 16px
+        line-height: 20px
+        max-width: 306px
+        width: 100%
+        margin: 0 auto
+
+    .reviews__items
+        grid-gap: 30px
+    .reviews__title
+        margin-bottom: 40px
+        font-weight: 24px
+        line-height: 30px
+        max-width: 263px
+        width: 100%
+        margin: 0 auto 30px
+    .reviews-item__inner
+        padding: 5px 24px 5px 20px
+    .reviews-item__text
+        font-size: 12px
+        margin-bottom: 5px
+
+    .reviews-item
+        background-color: transparent
+    .reviews-item__img
+        width: 90px
+        height: 90px
+
+    .reviews-item__title
+        font-weight: 500
+        font-size: 14px
+        line-height: 18px
+
+    .reviews-item__inner::before
+        width: 28px
+        height: 22px
+
+    .delivery
+        padding-top: 70px
+        padding-bottom: 37px
+        &__title
+            margin-bottom: 32px
+        &__items
+            grid-gap: 30px
+    .delivery-item
+        &__img
+            width: 170px
+            height: 170px
+            margin: 0 auto 10px
+        &__title
+            font-size: 20px
+        &__text
+            margin-top: 5px
+
+    .promotion-bottom
+        background: transparent
+
+    .promotion-bottom
+        .promotion__prices
+            text-align: center
+        .promotion__img
+            width: 100%
+            margin: 0 auto
+        .promotion__content
+            width: 100%
+        .promotion-col__text
+            background-color: transparent
+
+ 
+    .price-new.dark
+        color: #D84033
+
+    .promotion-col
+        max-width: 279px
+        width: 100%
+
+    .footer
+        padding: 15px 0 35px
+
+    .footer__logo
+        width: 161px
+
+    .footer__inner
+        max-width: 244px
+        width: 100%
+        margin: 0 auto
+
+    .footer__links::before
+        height: 2px
+
+    .timer__item
+        width: 83px
+        font-size: 42px
+        line-height: 55px
+        span
+            width: 39px
+
+    .promotion:not(.promotion-bottom) .timer__items
+        background-image: url("data:image/svg+xml,%3Csvg width='279' height='50' viewBox='0 0 279 50' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3Crect x='42.6704' y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3Crect x='98.4705' y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3Crect x='141.141' y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3Crect x='196.941' y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3Crect x='239.612' y='0.626221' width='39.3882' height='49.2353' rx='6.56471' fill='%23E8E8E8'/%3E%3C/svg%3E%0A")
+
+    .timer__item::before
+        font-size: 13px
+        line-height: 14px
+    .timer__item:not(:last-child)::after
+        top: -3px
+
+    .promotion-bottom .timer__item::before
+        -webkit-text-fill-color: #333
